@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (c) 2014 Prabhakaran Srinivasan
+ 	
+ 	This program is free software; you can redistribute it and/or
+ 	modify it under the terms of the GNU General Public License
+ 	version 3 as published by the Free Software Foundation.
+ 	
+ 	This program is distributed in the hope that it will be useful,
+ 	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ 	GNU General Public License for more details.
+ 	
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; if not, write to the Free Software
+ 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+	MA  02110-1301, USA.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-2dp" 
+    android:orientation="vertical"
+    android:keepScreenOn="true" >
+
+<LinearLayout
+	    android:id="@+id/clicker"
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="-1dp"
+	    android:background="#BADA55" >
+</LinearLayout> 
+	    
+	    <SurfaceView
+	    android:layout_width="1dp"
+	    android:layout_height="1dp"
+	    android:id="@+id/preview"
+	    />
+		
+</LinearLayout>	
